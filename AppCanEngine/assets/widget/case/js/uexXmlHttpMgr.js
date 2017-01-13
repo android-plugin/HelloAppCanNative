@@ -17,7 +17,7 @@ if (UNIT_TEST) {
 
 //		    var reqUrl = "http://192.168.1.47:1337/test?key1=value1&key2=value2&arr[]=aaa&arr[]=bbb&arr[]=ccc";
 
-		    var reqUrl = "http://139.224.11.153:45678/get";
+		    var reqUrl = "http://115.28.92.161:45678/get";
 
 			testGet(reqUrl);
 		},
@@ -25,7 +25,7 @@ if (UNIT_TEST) {
 
 //		    var reqUrl = "http://192.168.1.47:1337/testPost";
 
-		    var reqUrl = "http://139.224.11.153:45678/post";
+		    var reqUrl = "http://115.28.92.161:45678/post";
 
 			testPostWithData(reqUrl);
 		},
@@ -33,7 +33,7 @@ if (UNIT_TEST) {
 
 //		    var reqUrl = "http://192.168.1.47:1337/testPostBody";
 
-		    var reqUrl = "http://139.224.11.153:45678/post";
+		    var reqUrl = "http://115.28.92.161:45678/post";
 
 			testPostWithBody(reqUrl);
 		},
@@ -41,7 +41,7 @@ if (UNIT_TEST) {
 
 //		    var reqUrl = "http://192.168.1.47:1337/testPostStream";
 
-            var reqUrl = "http://139.224.11.153:45678/post";
+            var reqUrl = "http://115.28.92.161:45678/post";
 
 			testPostWithStream(reqUrl);
 		},
@@ -49,7 +49,7 @@ if (UNIT_TEST) {
 
 //		    var reqUrl = "http://192.168.1.47:1337";
 
-		    var reqUrl = "http://139.224.11.153:45678/post";
+		    var reqUrl = "http://115.28.92.161:45678/post";
 
 			testCookie(reqUrl);
 		},
