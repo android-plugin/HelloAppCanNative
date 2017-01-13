@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="plugin_uexFileMgr">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AppCanEngine/libs/plugin_uexFileMgr.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

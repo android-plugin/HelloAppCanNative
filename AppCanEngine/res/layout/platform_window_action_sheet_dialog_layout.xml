@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/line_white"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#DFE0E1" />
+    <!-- 标题 -->
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line_white"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:maxLines="1"
+        android:text="这是标题"
+        android:textColor="#666666"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/window_back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/dialog_button_list"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:background="@null"
+            android:dividerHeight="1px"
+            android:divider="#999999"
+            android:listSelector="@android:color/transparent" >
+        </ListView>
+        <View android:layout_width="match_parent"
+              android:layout_height="1px"
+              android:background="#999999"
+        />
+        <TextView
+            android:id="@+id/dialog_cancel_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:text="@string/cancel"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:textSize="18sp" >
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

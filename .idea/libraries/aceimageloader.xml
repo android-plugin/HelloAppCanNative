@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aceimageloader">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AppCanEngine/libs/aceimageloader.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

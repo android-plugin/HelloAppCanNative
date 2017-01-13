@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="plugin_uexXmlHttpMgr">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AppCanEngine/libs/plugin_uexXmlHttpMgr.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
