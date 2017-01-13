@@ -7,12 +7,6 @@ if (UNIT_TEST) {
 
 	var uexXmlHttpMgrCase = {
 
-		"testPostInAppcanJS" : function() {
-
-		    var reqUrl = "http://42.96.172.127:19898/app/login";
-
-	    	testPostInAppcanJS(reqUrl);
-		},
 		"testGet" : function () {
 
 //		    var reqUrl = "http://192.168.1.47:1337/test?key1=value1&key2=value2&arr[]=aaa&arr[]=bbb&arr[]=ccc";
