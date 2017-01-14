@@ -268,9 +268,6 @@ if (UNIT_TEST) {
                     UNIT_TEST.assert(false);
             })
         },
-        "isFileExistByPath" : function() {
-            UNIT_TEST.assertTrue(uexFileMgr.isFileExistByPath("wgt://open.txt"));
-        },
         "createWithPassword":function () {
             var file = uexFileMgr.createWithPassword({
                 path: "wgt://data/123456.txt",
